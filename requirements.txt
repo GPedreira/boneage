@@ -1,0 +1,7 @@
+streamlit
+gdown
+torch
+torchvision
+albumentations
+pydicom
+opencv-python-headless
