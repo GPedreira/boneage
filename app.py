@@ -180,8 +180,8 @@ def main():
     # ========================================================================
     
     # URL do modelo salvo (exemplo, use o seu ID real)
-    # Este é o ID do 'test_bone_age_model.pth' que deu MAE 8.34
-    DRIVE_FILE_ID = "1bbgv3F0KR8xUIpMthWDhHvh0KAbuqFGd" 
+    # #https://drive.google.com/file/d/1_vmkoI_Z9VVvgO6LY2V0KCDBtxJJCbCq/view?usp=sharing
+    DRIVE_FILE_ID = "1_vmkoI_Z9VVvgO6LY2V0KCDBtxJJCbCq" 
     drive_url = f'https://drive.google.com/uc?id={DRIVE_FILE_ID}'
 
     model = carrega_modelo(drive_url)
