@@ -13,7 +13,6 @@ import os
 
 # ============================================================================
 # 1. DEFINIÇÃO DA ARQUITETURA DO MODELO
-# (Copiado do nosso script de treino - Necessário para recarregar o modelo)
 # ============================================================================
 
 class BoneAgeModel(nn.Module):
@@ -74,7 +73,6 @@ class BoneAgeModel(nn.Module):
 
 # ============================================================================
 # 2. FUNÇÕES DE PRÉ-PROCESSAMENTO
-# (Copiado do nosso script de treino)
 # ============================================================================
 
 def get_valid_transforms(img_size=500):
