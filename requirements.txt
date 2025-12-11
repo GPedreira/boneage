@@ -5,3 +5,5 @@ torchvision
 albumentations
 pydicom
 opencv-python-headless
+matplotlib
+pandas
